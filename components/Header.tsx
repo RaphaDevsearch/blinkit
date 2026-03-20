@@ -1,3 +1,6 @@
+import  {Button}  from "@/components/ui/Button";
+
+
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full h-16 flex items-center gap-5 px-6 bg-white border-b z-50">
@@ -5,7 +8,7 @@ export default function Header() {
         blinK<span className="text-green-600">it</span>
       </div>
 
-      <button className="px-4 py-2 rounded bg-gray-100">Delivery</button>
+      <Button label="Delivery" />
 
       <div className="flex-1 flex items-center bg-gray-100 px-3 py-2 rounded">
         <span>🔍</span>

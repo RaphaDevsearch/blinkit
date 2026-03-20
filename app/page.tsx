@@ -1,11 +1,7 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      <Header />
-      {/* MAIN */}
-      <main className="max-w-[1000px] mx-auto mt-20 p-5">
+      <div className="max-w-[1000px] mx-auto mt-20 p-5">
         {/* HERO */}
         <section className="h-[220px] bg-gray-200 rounded-xl m-5 cursor-pointer" />
 
@@ -49,9 +45,7 @@ export default function Home() {
             </div>
           </section>
         ))}
-      </main>   
-
-      <Footer /> 
+      </div>   
     </div>
   );
 }
